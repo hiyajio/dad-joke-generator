@@ -9,7 +9,7 @@ url = "https://icanhazdadjoke.com/search"
 print(" ")
 header = "Dad Joke (De)-Generator"
 shade = valid_colors[randint(0, 6)]
-text = col(figform(header), color=shade)
+text = col(figform(header), color = shade)
 print(text)
 
 fromUser = input("Ready for a dad joke? What topic would you want? ")
